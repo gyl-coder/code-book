@@ -31,7 +31,7 @@ weight: 3
 
 静态代理需要为每个被代理的对象手动创建一个代理类；而动态代理则时在运行时通过某种机制来动态生成，不需要手动创建代理类。
 
-### 动态代理 - jdk
+### JDK 动态代理
 
 jdk动态代理模式是利用java中的**反射技术，在运行时动态创建代理类**。
 
@@ -417,7 +417,7 @@ public final class OrderService extends Proxy {
 }
 ```
 
-### jdk proxy vs cglib
+### JDK vs CGLIB
 
 JDK Proxy 的优势：
 

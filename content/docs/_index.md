@@ -4,7 +4,7 @@ type: book  # Do not modify.
 toc: true
 ---
 
-Welcome to the notes.
+Welcome to gyanliang's notes.
 
 # 复习列表
 
@@ -117,16 +117,16 @@ Welcome to the notes.
 - [ ] Mysql 主从模式如何保证主从强一致性
 - [ ] Mysql 集群如何保证主从可用性
 
-[Mysql 基础架构](./Mysql/mysql.md)
-[Mysql 增删改查操作](./Mysql/mysql-index-operation.md.md)
-[Mysql 索引](./Mysql/mysql-index.md)
-[Mysql 索引 增删改查操作](./Mysql/mysql-index-operation.md)
-[Mysql 锁](./Mysql/mysql-lock.md)
-[Mysql 事务](./Mysql/mysql-trans.md)
-[Mysql MVCC 多版本并发控制](./Mysql/mysql-mvcc.md)
-[Mysql 日志](./Mysql/mysql-logs.md)
-[Mysql 其他](./Mysql/other.md)
-[Mysql 问题列表](./Mysql/questions.md)
+- [Mysql 基础架构](./Mysql/mysql.md)
+- [Mysql 增删改查操作](./Mysql/mysql-index-operation.md.md)
+- [Mysql 索引](./Mysql/mysql-index.md)
+- [Mysql 索引 增删改查操作](./Mysql/mysql-index-operation.md)
+- [Mysql 锁](./Mysql/mysql-lock.md)
+- [Mysql 事务](./Mysql/mysql-trans.md)
+- [Mysql MVCC 多版本并发控制](./Mysql/mysql-mvcc.md)
+- [Mysql 日志](./Mysql/mysql-logs.md)
+- [Mysql 其他](./Mysql/other.md)
+- [Mysql 问题列表](./Mysql/questions.md)
 
 
 ### Redis
@@ -147,20 +147,15 @@ Welcome to the notes.
 
 ## Kafka
 
-Kafka 发送消息是如何保证可靠性的？
+- Kafka 发送消息是如何保证可靠性的？
+- [Kafka中的基本概念](https://gyl-coder.top/kafka/kafka-concept/)
+- [Kafka中的ISR、AR又代表什么？ISR的伸缩又指什么？](https://gyl-coder.top/kafka/kafka-concept/)
+- [Kafka中的HW、LEO、LSO等分别代表什么？](https://gyl-coder.top/kafka/kafka-concept/)
+- [kafka如何保证数据可靠性和数据一致性](https://gyl-coder.top/kafka/kafka-reliability/)
+- [Kafka Rebalance机制分析](https://gyl-coder.top/kafka/kafka-rebalance/)
+- [kafka 主题管理](https://gyl-coder.top/kafka/kafka-topic-manage/)
+- [Kafka有哪几处地方有分区分配的概念？简述大致的过程及原理](https://gyl-coder.top/kafka/kafka-partition-alocation/)
 
-[Kafka中的基本概念](https://gyl-coder.top/kafka/kafka-concept/)
-[Kafka中的ISR、AR又代表什么？ISR的伸缩又指什么？](https://gyl-coder.top/kafka/kafka-concept/)
-[Kafka中的HW、LEO、LSO等分别代表什么？](https://gyl-coder.top/kafka/kafka-concept/)
-[kafka如何保证数据可靠性和数据一致性](https://gyl-coder.top/kafka/kafka-reliability/)
-[Kafka Rebalance机制分析](https://gyl-coder.top/kafka/kafka-rebalance/)
-[kafka 主题管理](https://gyl-coder.top/kafka/kafka-topic-manage/)
-[Kafka有哪几处地方有分区分配的概念？简述大致的过程及原理](https://gyl-coder.top/kafka/kafka-partition-alocation/)
-
-
-### 其他
-
-简述一致性哈希算法的实现方式及原理
 
 
 ## 网络
@@ -208,8 +203,9 @@ Kafka 发送消息是如何保证可靠性的？
 - [ ] 简述 Spring 的初始化流程
 
 
-## 手写
+## 其他
 
+- 简述一致性哈希算法的实现方式及原理
 - [x] 手写生产者消费者模型
 
 
