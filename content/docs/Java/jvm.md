@@ -168,3 +168,32 @@ Java 虚拟机的多线程是通过线程轮流切换、分配处理器执行时
 
 。。。
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 虚拟机类加载机制
+
+### 类加载机制
+
+[https://gyl-coder.top/java/jvm/jvm-class-loader/](https://gyl-coder.top/java/jvm/jvm-class-loader/)
+
+### 类加载器
+
+[https://gyl-coder.top/java/jvm/jvm-class-loader2/](https://gyl-coder.top/java/jvm/jvm-class-loader2/)

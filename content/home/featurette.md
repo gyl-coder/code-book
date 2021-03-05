@@ -2,6 +2,8 @@
 widget: featurette
 headless: true  # This file represents a page section.
 weight: 30
+title: Skill
+subtitle: Document _anything_ ✨
 # ... Put Your Section Options Here (title etc.) ...
 
 # Showcase personal skills or business features.
