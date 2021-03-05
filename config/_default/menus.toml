@@ -9,7 +9,7 @@
 #  weight = 10
 
 [[main]]
-  name = "<i style='color:red'>❤️ Home</i>"
+  name = "<p style='color:red'>❤️ Home</p>"
   url = "#about"
   weight = 10
 
