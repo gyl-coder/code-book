@@ -12,6 +12,10 @@ subtitle: ✨✨✨✨✨✨
 # For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 
 feature:
+  - icon: mug-hot
+    icon_pack: fas
+    name: Java 
+    description: 70%
   - icon: Docker
     icon_pack: custom
     name: Docker

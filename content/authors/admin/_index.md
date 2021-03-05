@@ -1,7 +1,7 @@
 ---
 title: Yanliang Gao
 role: Senior Back End Engineer
-avatar_filename: touxiang.jpg
+avatar_filename: avatar.jpg
 organizations:
   - name: Quantex Phoenix Group
     url: "http://phoenix.iquantex.com/"
