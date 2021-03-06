@@ -42,7 +42,6 @@ disableAliases = true  # Disable aliases when `redirects` is added to the `outpu
   authors = "/author/:slug/"
   tags = "/tag/:slug/"
   categories = "/category/:slug/"
-  publication_types = "/publication-type/:slug/"
 
 [outputs]
   home = ["HTML", "RSS", "JSON", "WebAppManifest", "headers", "redirects"]
@@ -93,10 +92,6 @@ disableAliases = true  # Disable aliases when `redirects` is added to the `outpu
   [[related.indices]]
     name = "categories"
     weight = 70.0
-
-  [[related.indices]]
-    name = "authors"
-    weight = 20.0
 
 # Install Wowchemy
 [module]
