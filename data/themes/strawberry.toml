@@ -11,7 +11,7 @@ primary = "#ff3860"
 # menu_primary = "#ff3860"
 menu_primary = "#fff"
 menu_text = "rgb(74, 74, 74)"
-menu_text_active = "rgb(50, 115, 220)"
+menu_text_active = "#ff3860"
 menu_title = "rgb(255, 70, 85)"
 
 # Home sections
