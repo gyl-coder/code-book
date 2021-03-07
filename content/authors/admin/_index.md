@@ -22,7 +22,7 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/gyl-coder
-  - icon: fa-badge-sheriff
+  - icon: badge-sheriff
     icon_pack: fab
     link: https://gyl-coder.top
   - icon: weixin
