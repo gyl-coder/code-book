@@ -3,8 +3,8 @@
 linktitle: 🧙‍♂️ 必知必会
 summary: Review
 weight: 1
-icon: java
-icon_pack: fab
+<!-- icon: java
+icon_pack: fab -->
 
 # Page metadata.
 title: 复习回顾

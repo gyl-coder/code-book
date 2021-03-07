@@ -2,7 +2,7 @@
 # Title, summary, and page position.
 linktitle: 算法
 summary:  🚀
-weight: 1
+weight: 6
 icon: book-reader
 icon_pack: fas
 
