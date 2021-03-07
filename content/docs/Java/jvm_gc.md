@@ -5,7 +5,7 @@ type: book
 date: "2021-01-03T00:00:00+01:00"
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 5
+weight: 4
 ---
 
 ## 垃圾收集
@@ -322,7 +322,7 @@ Parallel Old是Parallel Scavenge收集器的老年代版本，支持多线程并
 
 经常和 Parallel Scavenge收集器配合使用，在注重吞吐量或者处理器资源较为稀缺的场合，都可以优先考虑Parallel Scavenge加Parallel Old收集器这个组合。
 
-### CMS ⭐️
+### ⭐️ CMS
 
 CMS（Concurrent Mark Sweep）收集器是一种以获取**最短回收停顿时间**为目标的收集器。
 
@@ -362,7 +362,7 @@ CMS是一款基于“标记-清除”算法实现的收集器，如果读者对�
 
 为了解决这个问题，CMS收集器提供了一个-XX：+UseCMS-CompactAtFullCollection开关参数（默认是开启的，此参数从JDK 9开始废弃），用于在CMS收集器不得不进行Full GC时开启内存碎片的合并整理过程，由于这个内存整理必须移动存活对象，（在Shenandoah和ZGC出现前）是无法并发的。这样空间碎片问题是解决了，但停顿时间又会变长，因此虚拟机设计者们还提供了另外一个参数-XX：CMSFullGCsBeforeCompaction（此参数从JDK 9开始废弃），这个参数的作用是要求CMS收集器在执行过若干次（数量由参数值决定）不整理空间的Full GC之后，下一次进入Full GC前会先进行碎片整理（默认值为0，表示每次进入Full GC时都进行碎片整理）。
 
-### G1 🔥
+### 🔥 G1
 
 G1是一款主要面向服务端应用的垃圾收集器。全功能的垃圾收集器”（Fully-Featured Garbage Collector）
 
