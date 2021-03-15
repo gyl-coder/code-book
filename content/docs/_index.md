@@ -338,8 +338,11 @@ phx里你主要负责的模块？ 多少人做这个框架，成员怎么分布
 	- https://segmentfault.com/a/1190000015967922
 - [ ] 实现快速排序
 - [ ] 10亿个数中如何高效地找到最大的一个数以及最大的第 K 个数
+	- https://cloud.tencent.com/developer/article/1154735
 - [ ] 给定一个包含 40亿 个无符号整数的大型文件，使用最多 1G 内存，对此文件进行排序
+	- https://juejin.cn/post/6844904003998842887
 - [ ] 10亿条数据包括 id，上线时间，下线时间，请绘制每一秒在线人数的曲线图
+	- https://blog.csdn.net/mermaidz/article/details/11214851
 - [ ] AVL 树和红黑树有什么区别？
 	- https://blog.csdn.net/u010899985/article/details/80981053
 - [ ] 如果通过一个不均匀的硬币得到公平的结果？
