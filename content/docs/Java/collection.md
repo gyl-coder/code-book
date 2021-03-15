@@ -8,12 +8,11 @@ date: "2021-01-04T00:00:00+01:00"
 weight: 1
 ---
 
-
 ### ConcurrentHashMap
 
 ConcurrentHashMap 底层是基于 数组 + 链表 组成的，不过在 jdk1.7 和 1.8 中具体实现稍有不同。
 
-ConcurrentHashMap在 1.7 的时候，是由Segment 数组、HashEntry 组成，和 HashMap 一样，仍然是数组加链表。
+ConcurrentHashMap在 1.7 的时候，是由Segment 数组、HashEntry 组成，仍然是数组加链表。
 
 Segment 是 ConcurrentHashMap 的一个内部类，主要的组成如下：
 
