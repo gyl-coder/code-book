@@ -16,6 +16,14 @@ feature:
     icon_pack: fas
     name: Java 
     description: 70%
+  - icon: spring
+    icon_pack: custom
+    name: Spring
+    description: 50%
+  - icon: kafka
+    icon_pack: custom
+    name: Kafka
+    description: 60%
   - icon: Docker
     icon_pack: custom
     name: Docker
@@ -24,6 +32,26 @@ feature:
     icon_pack: custom
     name: MySQL
     description: 70%
+  - icon: linux
+    icon_pack: custom
+    name: Linux
+    description: 40%
+  - icon: helm
+    icon_pack: custom
+    name: Helm
+    description: 40%
+  - icon: k8s
+    icon_pack: custom
+    name: K8S
+    description: 30%
+  - icon: cicd
+    icon_pack: custom
+    name: CI-CD
+    description: 50%
+  - icon: vim
+    icon_pack: custom
+    name: VIM
+    description: 30%
   - icon: Nginx
     icon_pack: custom
     name: Nginx

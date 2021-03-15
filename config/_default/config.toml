@@ -6,7 +6,7 @@
 # Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
 
 # Title of your site
-title = "Notes"
+title = "Yanliang Gao"
 
 # The URL of your site.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
@@ -42,7 +42,6 @@ disableAliases = true  # Disable aliases when `redirects` is added to the `outpu
   authors = "/author/:slug/"
   tags = "/tag/:slug/"
   categories = "/category/:slug/"
-  publication_types = "/publication-type/:slug/"
 
 [outputs]
   home = ["HTML", "RSS", "JSON", "WebAppManifest", "headers", "redirects"]
@@ -93,10 +92,6 @@ disableAliases = true  # Disable aliases when `redirects` is added to the `outpu
   [[related.indices]]
     name = "categories"
     weight = 70.0
-
-  [[related.indices]]
-    name = "authors"
-    weight = 20.0
 
 # Install Wowchemy
 [module]

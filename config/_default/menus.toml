@@ -9,7 +9,7 @@
 #  weight = 10
 
 [[main]]
-  name = "<p style='color:red'>❤️ Home</p>"
+  name = "❤️ Home"
   url = "#about"
   weight = 10
 
@@ -17,6 +17,20 @@
   name = "Skills"
   url = "#skills"
   weight = 20
+
+[[main]]
+  name = "📚 Notes"
+  url = "docs/"
+  identifier = "notes"
+  weight = 30
+
+[[main]]
+  name = "🌱 Java"
+  url = "docs/java/"
+  parent = "notes"
+  weight = 1
+
+
 
 
 [[main_right]]
